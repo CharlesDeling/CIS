@@ -1,0 +1,10 @@
+h1 {
+    color:rgb(46, 48, 134);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p {
+   font-weight: bold;
+}
+img {
+    max-width: 100%;
+}
