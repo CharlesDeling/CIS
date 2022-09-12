@@ -1,7 +1,14 @@
 h1 {
-    background-color: chartreuse;
+    background-color: green;
     color:rgb(46, 48, 134);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 title {
@@ -26,6 +33,26 @@ img {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+
+.logo {
+    width: 35%;
+    display: block;
+}
+
+.nolist, .navitems {
+    list-style: none;
+    padding: 0;
+}
+
+.navitems li {
+    display: inline-block;
+    width: 100px;
+}
+
+.navitems li:hover {
+    background-color: green;
+    cursor: pointer;
 }
 
 /**About Section**/
