@@ -1,10 +1,89 @@
 h1 {
+    background-color: green;
     color:rgb(46, 48, 134);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-p {
+
+h2 {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+title {
+    background-color: blue;
    font-weight: bold;
 }
+
 img {
     max-width: 100%;
+}
+
+.hero {
+    height: 100vh;
+    background-image: url("Jungle-Rot.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.intro {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo {
+    width: 35%;
+    display: block;
+}
+
+.nolist, .navitems {
+    list-style: none;
+    padding: 0;
+}
+
+.navitems li {
+    display: inline-block;
+    width: 100px;
+}
+
+.navitems li:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+/**About Section**/
+.container {
+    max-width: 1200px;
+    display: block;
+    margin: auto;
+}
+
+.col-30 {
+    width: 29%;
+}
+
+.col-70 {
+    width: 69%;
+}
+
+.column {
+    max-width: 500px;
+    display: inline;
+}
+
+.content {
+    padding-left: 20px;
+    padding-top: 40px;
+    vertical-align: top;
+}
+
+@media screen and (max-width: 767px) {
+    .column {
+        display: block;
+        width: 100%;
+    }
 }
